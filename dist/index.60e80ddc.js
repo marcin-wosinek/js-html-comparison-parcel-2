@@ -1,0 +1,2 @@
+function e(e){return e&&e.__esModule?e.default:e}var n;n=JSON.parse('[{"name":"Christopher L Sanders","phone":"769-232-1807"},{"name":"Frances J Nolte","phone":"901-287-0419"}]');const a=document.createElement("div");a.className="contact-list",e(n).forEach((n=>{const o=document.createElement("div");o.className="contact",o.innerHTML=e('<h2 class="name">name</h2>\n\n<p class="phone">phone</p>\n'),o.querySelector(".name").innerHTML=n.name,o.querySelector(".phone").innerHTML=n.phone,a.appendChild(o)})),document.body.appendChild(a);
+//# sourceMappingURL=index.60e80ddc.js.map
